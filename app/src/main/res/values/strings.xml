@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">E-Tabletka</string>
+    <string name="usu_list_z_przypomnieniami">Usuń Listę z Przypomnieniami</string>
+    <string name="dodaj_przypomnienie">Dodaj Przypomnienie</string>
+    <string name="Dodawanie_leku">Dodaj Lek!</string>
+    <string name="Zatwierdz">Dodaj</string>
+    <string name="Anuluj">Anuluj</string>
+    <string name="Wprowadz_nazwe_leku">Wprowadź nazwę leku!</string>
+</resources>

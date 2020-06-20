@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/dialog_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/colorWhite"
+        >
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Dodawanie_leku"
+            android:textColor="@color/colorWhite"
+            android:padding="5dp"
+            android:background="#464646"
+            android:textSize="15dp"
+            />
+        <EditText
+            android:id="@+id/et_nazwa_leku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Wprowadz_nazwe_leku"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="15dp"
+            android:layout_below="@id/dialog_title"
+            />
+        <Button
+            android:id="@+id/dialog_positive_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Zatwierdz"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentRight="true"
+            android:background="#464646"
+            android:layout_below="@id/et_nazwa_leku"
+            />
+        <Button
+            android:id="@+id/dialog_negative_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Anuluj"
+            android:textColor="@color/colorWhite"
+            android:layout_toLeftOf="@id/dialog_positive_btn"
+            android:background="#464646"
+            android:layout_marginRight="3dp"
+            android:layout_alignBaseline="@id/dialog_positive_btn"
+            />
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
